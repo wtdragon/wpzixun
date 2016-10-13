@@ -635,7 +635,6 @@ input[type="radio"] {
 	padding: 0;
 }
 
-
 /**
  * 6.0 Navigations
  */
@@ -1301,6 +1300,11 @@ img.aligncenter {
 	padding: 7.6923%;
 }
 
+
+.logo{  height: 100px;
+        background:url("LOGO.jpg") left no-repeat;
+        }
+
 .site-branding {
 	min-height: 2em;
 	padding-right: 60px;
@@ -1564,7 +1568,10 @@ img.aligncenter {
 	display: none;
 	padding: 0 7.6923%;
 }
-
+.content-mainpic {
+        height: 500px;
+        background:url("mainpic.png") left no-repeat;     
+}
 .secondary.toggled-on {
 	border-top: 1px solid transparent;
 	border-bottom: 1px solid transparent;

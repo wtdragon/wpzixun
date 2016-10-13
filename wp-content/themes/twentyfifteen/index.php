@@ -15,10 +15,10 @@
  */
 
 get_header(); ?>
-
+<main id="main" class="site-main" role="main">
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
-
+		
+                <div id="mainpic" class="content-mainpic"></div>
 		<?php if ( have_posts() ) : ?>
 
 			<?php if ( is_home() && ! is_front_page() ) : ?>
